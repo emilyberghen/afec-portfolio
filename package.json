@@ -1,5 +1,5 @@
 {
-  "name": "afec-blog",
+  "name": "afec-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": ".eleventy.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilyberghen/afec-blog.git"
+    "url": "git+https://github.com/emilyberghen/afec-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilyberghen/afec-blog/issues"
+    "url": "https://github.com/emilyberghen/afec-portfolio/issues"
   },
-  "homepage": "https://github.com/emilyberghen/afec-blog#readme",
+  "homepage": "https://github.com/emilyberghen/afec-portfolio#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
