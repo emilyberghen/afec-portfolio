@@ -3,10 +3,12 @@ body {
 	margin: 5rem auto;
 	font-size: 2rem;
 	font-family: "Lora", Georgia, 'Times New Roman', Times, serif;
+	background-color: #155942;
+	color: #fff;
 }
 
 header h1 a {
-	color: black;
+	color: #DACAEE;
 	text-decoration: none;
 	font-size: 3rem;
 	font-weight: 600;
@@ -23,12 +25,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: black;
+	color: #fff;
 	text-decoration: none;
 }
 
 header nav ul li a.selected {
-	border-bottom: 2px solid peachpuff;
+	border-bottom: 2px solid #DACAEE;
 }
 
 header {
@@ -62,7 +64,7 @@ main h3 {
 }
 
 main ul.blog li a {
-	color: peachpuff;
+	color: #DACAEE;
 }
 
 main ul.blog li {
