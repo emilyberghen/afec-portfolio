@@ -1,5 +1,5 @@
 ---
-title: 'Mijn meesterwerk'
+title: 'Werk 1'
 summary: 'Kortere beschrijving van mijn meesterwerk'
 image: '/img/11ty-logo.png'
 displayOrder: 1
