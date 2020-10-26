@@ -1,10 +1,15 @@
 ---
 title: 'Contact'
 layout: 'layouts/page.html'
+custom_css: 'main p:first-of-type {margin-bottom: 50px}'
 ---
 
-email me
+need help with a project?
 
-or
 
-checkout my socials
+
+[linkedin](https://www.linkedin.com/in/emily-berghen/)
+
+[github](https://github.com/emilyberghen)
+
+[facebook](https://www.facebook.com/emily.berghen)
