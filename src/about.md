@@ -5,7 +5,7 @@ layout: 'layouts/page.html'
 
 Emily Berghen is a digital designer who loves to code.
 
-And she loves plants.
+She also loves plants and making things by hand.
 
 <!-- Read about interesting things here
 
