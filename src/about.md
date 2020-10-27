@@ -1,7 +1,10 @@
 ---
 title: About
 layout: 'layouts/page.html'
+body_class: 'about'
 ---
+
+![photo of me](/img/about.jpg "Photo of me")
 
 Emily Berghen is a digital designer who loves to code.
 

@@ -1,6 +1,7 @@
 ---
 title: 'Work'
 layout: 'layouts/page.html'
+body_class: 'work'
 # custom_css: 'body {background-color: #fff; color: #155942;} header h1 a, header nav ul li a {color: #155942;}'
 ---
 

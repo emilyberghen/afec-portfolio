@@ -1,6 +1,7 @@
 ---
 title: 'Contact'
 layout: 'layouts/page.html'
+body_class: 'contact'
 custom_css: 'main p:first-of-type {margin-bottom: 50px}'
 ---
 
