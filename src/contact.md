@@ -13,4 +13,6 @@ need help with a project?
 
 [github](https://github.com/emilyberghen)
 
+[codepen](https://codepen.io/emilyberghen/)
+
 [facebook](https://www.facebook.com/emily.berghen)
