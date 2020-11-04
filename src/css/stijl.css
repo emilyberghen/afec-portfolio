@@ -17,10 +17,6 @@ p {
 	z-index: 500;
 }
 
-p, a, h2, h3 {
-	width: 60%;
-}
-
 h2 {
 	font-weight: 500;
 	margin-bottom: 20px;
@@ -105,7 +101,7 @@ header nav {
 	opacity: 0;
 	transition: opacity .5s;
 	position: fixed;
-	right: 0;
+	right: -100%;
 	top: 50%;
 	transform: translateY(-50%);
 	z-index: 1000;
@@ -113,6 +109,7 @@ header nav {
 
 header .open~nav {
 	opacity: 1;
+	right: 0;
 }
 
 header nav ul {
@@ -146,12 +143,6 @@ main img {
 	display: block;
 }
 
-main h3 {
-	font-size: 2.25rem;
-	font-weight: 600;
-	margin-bottom: 3rem;
-}
-
 h1.pagetitle {
 	position: fixed;
 	right: 40px;
@@ -162,6 +153,7 @@ h1.pagetitle {
 	opacity: 0.5;
 	margin: 0;
 	padding: 0;
+	z-index: 100;
 }
 
 .home main p { 
@@ -170,11 +162,19 @@ h1.pagetitle {
 	padding: 0;
 } 
 
+.home main p,
+.about main p,
+.contact main p {
+	width: 60%;
+}
+
 .home main p:first-of-type,
-.about main p:first-of-type { 
+.about main p:first-of-type,
+.contact main p:first-of-type { 
 	position: absolute; 
 	right: 60px; 
 	bottom: 130px; 
+	width: 40%;
 }
 
 main ul.blog li a {
@@ -185,43 +185,30 @@ main ul.blog li {
 	margin-bottom: 2rem;
 }
 
-main {
-	margin-bottom: 5rem;
-}
-
 article {
-	display: flex;
-	align-items: center;
-	width: calc(100% - 20px);
-	margin-bottom: 100px;
+	position: relative;
+	margin-bottom: 50px;
 }
 
-article .text h2, article .text p {
-	width: 100%;
+article .text h2, 
+article .text p {
+	width: 60%;
+	position: relative;
+	z-index: 100;
 }
 
 article .img {
-	width: 100%;
+	width: 40%;
 	height: auto;
-}
-
-.socials a {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-.socials #facebook {
-	background-image: url("/img/fb.svg");
-}
-.socials #instagram {
-	background-image: url("/img/ig.svg");
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	z-index: 0;
 }
 
 @media (min-width: 768px) {
 	body {
-		width: 80vw;
 		margin: 50px 60px;
 	}
 
@@ -239,17 +226,18 @@ article .img {
 	}
 
 	.home main p { 
-		bottom: 100px; 
+		bottom: 50px; 
 	} 
 
 	.home main p:first-of-type,
-	.about main p:first-of-type { 
-		right: 100px; 
-		bottom: 215px; 
+	.about main p:first-of-type,
+	.contact main p:first-of-type { 
+		right: 80px; 
+		bottom: 165px; 
 	}
 
-	main {
-		width: 600px;
+	article {
+		margin-bottom: 150px;
 	}
 }
 
@@ -258,8 +246,12 @@ article .img {
 		margin: 50px 100px;
 	}
 
-	p, a, li, h1, h2, h3, h1.pagetitle {
+	p, a, li, h1, h3, h1.pagetitle {
 		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 90px;
 	}
 
 	p, a, h2, h3 {
@@ -277,12 +269,23 @@ article .img {
 	}
 
 	.home main p:first-of-type,
-	.about main p:first-of-type { 
-		right: 120px; 
-		bottom: 255px; 
+	.about main p:first-of-type,
+	.contact main p:first-of-type { 
+		top: 35px; 
+		right: 120px;
+		width: 35%;
 	}
 
-	main {
-		width: calc(100% - 20px);
+	article .img {
+		width: 35%;
+	}
+}
+
+@media (min-width: 1250px) {
+	.home main p:first-of-type,
+	.about main p:first-of-type,
+	.contact main p:first-of-type,
+	article .img {
+		width: 25%;
 	}
 }

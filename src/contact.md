@@ -2,12 +2,9 @@
 title: 'Contact'
 layout: 'layouts/page.html'
 body_class: 'contact'
-custom_css: 'main p:first-of-type {margin-bottom: 50px}'
 ---
 
-need help with a project?
-
-
+![photo of me](/img/contact.jpg "Photo of me")
 
 [linkedin](https://www.linkedin.com/in/emily-berghen/)
 
