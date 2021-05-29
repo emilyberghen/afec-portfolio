@@ -2,8 +2,7 @@
 title: 'Rusalka'
 summary: 'an animated poster for the opera Rusalka.'
 image: '/img/rusalka.gif'
-displayOrder: 2
+displayOrder: 3
 featured: true
 ---
 
-a complete branding of a party for young people.
