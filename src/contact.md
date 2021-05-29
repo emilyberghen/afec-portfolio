@@ -10,6 +10,6 @@ body_class: 'contact'
 
 [github](https://github.com/emilyberghen)
 
-[codepen](https://codepen.io/emilyberghen/)
-
 [facebook](https://www.facebook.com/emily.berghen)
+
+[email](mailto:emily.berghen@hotmail.com)
